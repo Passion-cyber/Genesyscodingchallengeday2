@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    background-color: #e5e5e5;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+main .container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .left-card-section{
+    height: 400px;
+    width: 300px;
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container .left-card-section .card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .left-card-section .card-button h2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem 3.5rem;
+    background-color: #336FA7;
+    border-radius: .4rem;
+    position: relative;
+    cursor: pointer;
+    top: 180px;
+}
+
+.container .left-card-section .card-button h2:hover{
+    color: #336FA7;
+    background-color: #070d13;
+
+
+}
+
+.left-card-section .card-button h2 a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+/* right section grid */
+
+.container .right-card-section{
+    padding: 3rem;
+    background-color: #EEEEEE;
+    height: 400px;
+    width: 450px;
+}
+
+.container .right-card-section .form-group{
+    margin: auto;
+    padding: 2rem;
+    width: 100%;   
+}
+
+.form-group .header-text {
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.form-group .individual-label{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    align-items: center;
+} 
+
+
+.form-group .individual-label input{
+    padding: 1rem;
+    border: none;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.form-group .individual-label input:focus{
+    outline: none;
+}
+
+.form-group .individual-label #button{
+    display: flex;
+}
+
+ #button a{
+    font-size: .7rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 3rem;
+    background-color: #336FA7;
+    font-weight: bold;
+    border-radius: .5rem;
+    transition: 0.3s ease-out;
+}
+
+#button a:hover{
+    color: #336FA7;
+    background-color: #070d13;
+
+
+}
+
+.primary-btn{
+position: relative;
+left: 125px;
+margin-top: 1rem;
+}
